@@ -1,0 +1,14 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.magikarp {
+  width: 100px;
+  border: 0;
+  transition: opacity 0.5s ease;
+  &:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+}

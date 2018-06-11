@@ -1,3 +1,15 @@
 theme: jekyll-theme-minimal
 title: Meet Mee
 description: Mee Cha is a software engineer living and working in beautiful San Francisco, California.
+collections:
+  pages:
+    output: true
+
+defaults:
+  # Primary collections
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
