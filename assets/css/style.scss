@@ -12,3 +12,27 @@
     cursor: pointer;
   }
 }
+
+#my-sdk-thing {
+  padding: 1rem;
+  border-top: 1px solid #f39c77;
+  border-right: 1px solid #f39c77;
+  border-bottom: 1px solid #f39c77;
+  border-left: 4px solid #f39c77;
+  border-radius: 2px;
+}
+
+#my-sdk-button {
+  appearance: none;
+  padding: 4px 12px;
+  color: #fff;
+  background: #009FDB;
+  border: 0;
+  font-size: 1rem;
+  border-radius: 2px;
+  transition: opacity 0.5s ease;
+  &:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+}
