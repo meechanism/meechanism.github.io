@@ -3,6 +3,7 @@
 
 @import "{{ site.theme }}";
 
+
 .magikarp {
   width: 100px;
   border: 0;
@@ -20,6 +21,7 @@
   border-bottom: 1px solid #f39c77;
   border-left: 4px solid #f39c77;
   border-radius: 2px;
+  margin: 0 0 1rem;
 }
 
 #my-sdk-button {
@@ -35,4 +37,27 @@
     opacity: 0.8;
     cursor: pointer;
   }
+}
+
+.menu {
+  margin: 0 0 1rem;
+  .menu-item{
+    display: block;
+  }
+}
+
+// Magikarp
+
+.magikarp-container {
+  position: relative;
+}
+
+#magi-click {
+  position: absolute;
+  top: 0;
+  padding: 1rem;
+  color: #fff;
+  background: #f39c77;
+  border-radius: 2px;
+  display: inline-block;
 }

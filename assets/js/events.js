@@ -25,6 +25,13 @@ ready(function() {
         eventAction: actionName,
         eventLabel: flavor
       });
+
+      const msg = element.dataset.msg;
+      const msgContainer = element.dataset.msgContainer;
+      if (msgContainer && msg) {
+        const containerEl = document.getElementById(msgContainer);
+        containerEl.innerHTML += msg;
+      }
     });
   }
 });

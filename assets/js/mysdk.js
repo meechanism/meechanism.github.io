@@ -29,6 +29,6 @@ ready(function() {
   newDiv.appendChild(newButton);
 
   // add the newly created element and its content into the DOM
-  var pageHeader = document.getElementById("page-header");
-  pageHeader.appendChild(newDiv);
+  var pageHeader = document.getElementById("sdk-container");
+  if (pageHeader) pageHeader.appendChild(newDiv);
 });
